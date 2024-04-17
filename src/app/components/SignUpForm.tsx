@@ -1,7 +1,6 @@
 'use client';
 import Link from "next/link";
 import { useForm } from "react-hook-form"
-
 export default function SignUpForm(){
     const {register,handleSubmit,formState:{errors},watch}=useForm();
     const password=watch('password','');

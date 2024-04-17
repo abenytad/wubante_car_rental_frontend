@@ -10,8 +10,6 @@ export default function MainPage(){
                     return  <CardComponent key={index} imageUrl={imagePath} title="Hey car" description="sdfjkhsdkj"  />
                 })
             }
-       
         </div>
-
     </main>)
 }
